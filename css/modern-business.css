@@ -1,105 +1,144 @@
 body {
-  padding-top: 54px;
+    padding-top: 54px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
+}
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#services {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#works {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#contacto {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#for-contacto {
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .navbar .navbar-brand {
-  font-family: 'Roboto Mono', monospace;
-  font-style: thin;
+    font-family: 'Roboto Mono', monospace;
+    font-style: thin;
 }
+
 .navbar .nav-item {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-.navbar .nav-item > a:hover,
-.navbar .nav-item > a:focus {
-  border-radius: 0;
-  color:black;
-  background-color: #7baee1;
+
+.navbar .nav-item>a:hover,
+.navbar .nav-item>a:focus {
+    border-radius: 1;
+    color: black;
+    background-color: #7baee1;
 }
 
 header {
-  background-image: url('../img/slider/slide-02.jpeg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: rgb(37, 41, 44)
+    background-image: url('../img/slider/slide-02.jpeg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: rgb(37, 41, 44)
 }
+
 header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
+
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 22px;
     margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
+}
+
+header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-}
-
-section {
-  padding: 100px 0;
-}
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: 75px;
+    line-height: 50px;
+    margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
+    header .intro-text {
+        padding-top: 500px;
+        padding-bottom: 100px;
+    }
+    header .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    header .intro-text .intro-heading {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
 }
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
 .service-heading {
-  margin: 15px 0;
-  text-transform: none;
+    margin: 15px 0;
+    text-transform: none;
 }
 
 .card-body h5 {
@@ -110,5 +149,5 @@ section h3.section-subheading {
 }
 
 aside .clientes img {
-  margin: 50px auto;
+    margin: 50px auto;
 }
