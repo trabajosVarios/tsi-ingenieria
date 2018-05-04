@@ -38,6 +38,11 @@ body {
     padding-bottom: 50px;
 }
 
+#detalle {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 .navbar .navbar-brand {
     font-family: 'Roboto Mono', monospace;
     font-style: thin;
@@ -64,7 +69,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: rgb(37, 41, 44)
+    color: rgb(18, 108, 177)
 }
 
 header .intro-text {

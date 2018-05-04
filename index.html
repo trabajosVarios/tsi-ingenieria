@@ -195,64 +195,55 @@
 
                 <div class="col-md-12">
                     <h2 class="section-heading">Contacto</h2>
-                    <p class="text-muted">Ubicación y Formulario de Contacto</p>
+                    <!-- <p class="text-muted">Ubicación y Formulario de Contacto</p> -->
                 </div>
 
-                <div class="col-md-7">
-                    <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57590.01904339818!2d-70.75142602552636!3d-34.181056351384186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663434a5614e07d%3A0x14593b7f48c1fc88!2sVilla+Santa+Blanca!5e0!3m2!1ses!2scl!4v1510345399763"></iframe>
+                <div class="col-md-7" id="for-contacto">
+                    <!-- <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57590.01904339818!2d-70.75142602552636!3d-34.181056351384186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663434a5614e07d%3A0x14593b7f48c1fc88!2sVilla+Santa+Blanca!5e0!3m2!1ses!2scl!4v1510345399763"></iframe> -->
+                    <h3 class="section-heading">Formulario de Contacto</h3>
+
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Nombre y Apellido:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nombre Apellidos" required data-validation-required-message="Por favor ingresar algun nombre y apellido.">
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Número Telefonico:</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Telefono o celular" required data-validation-required-message="Por favor ingresar un numero valido">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Correo:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Correo correo@email.cl" required data-validation-required-message="Por favor ingresar correo valido.">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Mensaje o Cotización:</label>
+                                <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Mensaje o consulta" required data-validation-required-message="Por favor ingresar un numero valido" maxlength="999" style="resize:none"></textarea>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+
+
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-5" id="detalle">
                     <h3 class="section-heading">Detalle del Contacto</h3>
-                    <p class="text-muted">
-                        Lago del Toro A #1366 Villa Santa Blanca
-                        <br>El Monte, Santiago Chile
-                        <br>
-                    </p>
-                    <p>Telefonos: +56 9 74567890</p>
-                    <p>Email: <a href="#">contacto@ingenieria-tsi.cl</a></p>
-                    <p>Horarios: Lunes - Viernes: 8:30 AM a 18:30 PM</p>
+                    <br>
+
+                    <p><strong>Telefonos:</strong> +56 9 5719 4006</p>
+                    <p><strong>Email:</strong> <a href="#">contacto@ingenieria-tsi.cl</a></p>
+                    <p><strong>Horarios:</strong> Lunes - Viernes: 8:30 AM a 18:30 PM</p>
                 </div>
-
-                <br><br>
-                <div class="col-md-12" id="for-contacto">
-                    <h2 class="section-heading">Formulario de Contacto</h2>
-                    <div class="col-lg-8 mb-4">
-                        <form name="sentMessage" id="contactForm" novalidate>
-                            <div class="control-group form-group">
-                                <div class="controls">
-                                    <label>Nombre y Apellido:</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Nombre Apellidos" required data-validation-required-message="Por favor ingresar algun nombre y apellido.">
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <div class="control-group form-group">
-                                <div class="controls">
-                                    <label>Número Telefonico:</label>
-                                    <input type="tel" class="form-control" id="phone" placeholder="Telefono o celular" required data-validation-required-message="Por favor ingresar un numero valido">
-                                </div>
-                            </div>
-                            <div class="control-group form-group">
-                                <div class="controls">
-                                    <label>Correo:</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Correo correo@email.cl" required data-validation-required-message="Por favor ingresar correo valido.">
-                                </div>
-                            </div>
-                            <div class="control-group form-group">
-                                <div class="controls">
-                                    <label>Mensaje o Cotización:</label>
-                                    <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Mensaje o consulta" required data-validation-required-message="Por favor ingresar un numero valido" maxlength="999" style="resize:none"></textarea>
-                                </div>
-                            </div>
-                            <div id="success"></div>
-                            <!-- For success/fail messages -->
-                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                        </form>
-                    </div>
-                </div>
-
-
-
             </div>
         </div>
     </section>
