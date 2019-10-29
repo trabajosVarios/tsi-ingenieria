@@ -54,7 +54,7 @@ body {
 
 .navbar .nav-item>a:hover,
 .navbar .nav-item>a:focus {
-    border-radius: 1;
+    border-radius: 3px;
     color: black;
     background-color: #7baee1;
 }
