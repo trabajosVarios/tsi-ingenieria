@@ -60,14 +60,12 @@ body {
 }
 
 header {
-    background-image: url('../img/slider/slide-02.jpeg');
-    background-repeat: none;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-image: url('../img/logos/head-home-fix.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    -o-background-size: cover;
+    
     text-align: center;
     color: rgb(18, 108, 177)
 }
